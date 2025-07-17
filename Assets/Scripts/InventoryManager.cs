@@ -32,11 +32,19 @@ public class InventoryManager : MonoBehaviour
             Debug.Log(inventorySlots[i]);
 
             InventorySlot _InventorySlot = inventorySlots[i].GetComponent<InventorySlot>();
+            Debug.Log(_InventorySlot.itemName);
 
-            if (_CollectibleItem.itemName == _InventorySlot.itemName && _CollectibleItem.itemMaxQuantity > _InventorySlot.itemQuantity || _InventorySlot.itemName == null)
+            if (_CollectibleItem.itemName == _InventorySlot.itemName || _InventorySlot.itemName == "")
             {
-                SpawnItem(_InventorySlot, _CollectibleItem, collectedItem);
-                break;
+                Debug.Log("Slot " + i + " is available");
+
+                if (_CollectibleItem.itemMaxQuantity > _InventorySlot.itemQuantity)
+                {
+                    Debug.Log("Slot " + i + " is not in maximum amount");
+
+                    SpawnItem(_InventorySlot, _CollectibleItem, collectedItem);
+                    break;
+                }
             }
         }
     }

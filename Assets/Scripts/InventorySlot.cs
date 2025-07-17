@@ -4,10 +4,15 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
+    [HideInInspector]
     public Image itemImage;
+    [HideInInspector]
     public Item item;
+    [HideInInspector]
     public string itemName = null;
+    [HideInInspector]
     public string itemDescription = null;
+    [HideInInspector]
     public int itemQuantity = 0;
    
     void Start()

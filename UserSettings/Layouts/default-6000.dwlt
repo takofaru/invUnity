@@ -17,7 +17,7 @@ MonoBehaviour:
     x: 22
     y: 52
     width: 1876
-    height: 979
+    height: 952
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 6}
@@ -44,7 +44,7 @@ MonoBehaviour:
     x: 0
     y: 36
     width: 1876
-    height: 923
+    height: 896
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
@@ -68,13 +68,12 @@ MonoBehaviour:
     x: 1372
     y: 0
     width: 504
-    height: 923
+    height: 896
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 12}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &4
@@ -95,12 +94,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 342
-    height: 547
+    height: 531
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -119,16 +118,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 547
+    y: 531
     width: 1372
-    height: 376
+    height: 365
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
   - {fileID: 13}
+  - {fileID: 18}
+  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -152,7 +151,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1876
-    height: 979
+    height: 952
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -197,7 +196,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 959
+    y: 932
     width: 1876
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -222,7 +221,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1372
-    height: 923
+    height: 896
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
@@ -248,7 +247,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1372
-    height: 547
+    height: 531
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -272,1091 +271,16 @@ MonoBehaviour:
     x: 342
     y: 0
     width: 1030
-    height: 547
+    height: 531
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Git for Unity
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Git for Unity\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 1394
-    y: 115
-    width: 503
-    height: 897
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  progressMessageClearTime: -1
-  notificationClearTime: -1
-  timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
-  initProjectView:
-    hasCompletedInitialCheck: 1
-    isUserDataPresent: 1
-    lastCheckUserChangedEvent:
-      updatedTimeString: 2025-07-15T11:04:15.753+07:00
-      cacheType: 8
-  branchesView:
-    treeLocals:
-      IsRemote: 0
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Local branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    treeRemotes:
-      IsRemote: 1
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Remote branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    mode: 0
-    newBranchName: 
-    scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
-    currentBranch:
-      name: 
-      tracking: 
-    currentRemote:
-      name: 
-      url: 
-      login: 
-      user: 
-      host: 
-      function: 0
-      token: 
-    localBranches: []
-    remoteBranches: []
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    commitBody: 
-    commitMessage: 
-    currentBranch: main
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys:
-        - Packages
-        values:
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 1
-      isUsingGlobalSelection: 1
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages/manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages/manifest.json
-          fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Packages/manifest.json
-          projectPath: Packages/manifest.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Packages/packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages/packages-lock.json
-          fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Packages/packages-lock.json
-          projectPath: Packages/packages-lock.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    gitStatusEntries:
-    - path: Packages/manifest.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Packages/manifest.json
-      projectPath: Packages/manifest.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Packages/packages-lock.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Packages/packages-lock.json
-      projectPath: Packages/packages-lock.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 2 changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2025-07-18T00:30:11.141+07:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2025-07-18T00:32:27.659+07:00
-      cacheType: 6
-    lastLocksChangedEvent:
-      updatedTimeString: 2025-07-18T00:32:01.956+07:00
-      cacheType: 7
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: 1584eed38541624f5eb4a37344d84f1c416bfe29
-      mergeA: 
-      mergeB: 
-      authorName: takofaru
-      authorEmail: fadelior@gmail.com
-      commitEmail: fadelior@gmail.com
-      commitName: takofaru
-      summary: Initial commit
-      description: 
-      timeString: 2025-07-15T11:06:43.000+07:00
-      commitTimeString: 2025-07-15T11:06:43.000+07:00
-      changes:
-      - path: .gitattributes
-        fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/.gitignore
-        fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/.gitignore
-        projectPath: Assets/.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2025-07-15T11:07:35.658+07:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 2025-07-15T11:08:06.236+07:00
-      cacheType: 5
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: 1584eed38541624f5eb4a37344d84f1c416bfe29
-        mergeA: 
-        mergeB: 
-        authorName: takofaru
-        authorEmail: fadelior@gmail.com
-        commitEmail: fadelior@gmail.com
-        commitName: takofaru
-        summary: Initial commit
-        description: 
-        timeString: 2025-07-15T11:06:43.000+07:00
-        commitTimeString: 2025-07-15T11:06:43.000+07:00
-        changes:
-        - path: .gitattributes
-          fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .gitignore
-          fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/.gitignore
-          fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/.gitignore
-          projectPath: Assets/.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
-      mergeA: 
-      mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
-      description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    detailsScroll: {x: 0, y: 0}
-  settingsView:
-    gitPathView:
-      gitPath: /usr/bin/git
-      gitLfsPath: /usr/bin/git-lfs
-      errorMessage: 
-      resetToBundled: 0
-      resetToSystem: 0
-      changingManually: 0
-      installSettingsHidden: 0
-    hasRemote: 0
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2025-07-15T11:06:45.572+07:00
-      cacheType: 1
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: 
-    scroll: {x: 0, y: 0}
-    userSettingsView:
-      gitName: takofaru
-      gitEmail: fadelior@gmail.com
-      newGitName: takofaru
-      newGitEmail: fadelior@gmail.com
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2025-07-15T11:04:15.753+07:00
-        cacheType: 8
-      configSettingsHidden: 0
-    repositorySettingsHidden: 0
-    generalSettingsHidden: 0
-    debugSettingsHidden: 0
-    uiSceneSettingsHidden: 0
-    uiProjectSettingsHidden: 0
-  locksView:
-    currentRemoteHasUpdate: 1
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    keychainHasUpdate: 1
-    locksControl:
-      scroll: {x: 0, y: 0}
-      gitLockEntries: []
-      assets:
-        keys: []
-        values: []
-      gitStatusDictionary:
-        keys: []
-        values: []
-      selectedEntry:
-        gitLock:
-          id: 
-          path: 
-          owner:
-            name: 
-            email: 
-          lockedAtString: 
-        gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 07:07
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2025-07-15T11:06:45.572+07:00
-      cacheType: 1
-    lastLocksChangedEvent:
-      updatedTimeString: 2025-07-15T11:06:45.610+07:00
-      cacheType: 7
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2025-07-15T11:06:45.629+07:00
-      cacheType: 6
-    lockedFiles: []
-    gitStatusEntries:
-    - path: .vscode/extensions.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.vscode/extensions.json
-      projectPath: .vscode/extensions.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .vscode/launch.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.vscode/launch.json
-      projectPath: .vscode/launch.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .vscode/settings.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/.vscode/settings.json
-      projectPath: .vscode/settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/controls.inputactions
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/controls.inputactions
-      projectPath: Assets/controls.inputactions
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/controls.inputactions.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/controls.inputactions.meta
-      projectPath: Assets/controls.inputactions.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/DefaultVolumeProfile.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/DefaultVolumeProfile.asset
-      projectPath: Assets/DefaultVolumeProfile.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/DefaultVolumeProfile.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/DefaultVolumeProfile.asset.meta
-      projectPath: Assets/DefaultVolumeProfile.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items.meta
-      projectPath: Assets/Items.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items/Apple.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items/Apple.asset
-      projectPath: Assets/Items/Apple.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items/Apple.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items/Apple.asset.meta
-      projectPath: Assets/Items/Apple.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items/Book.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items/Book.asset
-      projectPath: Assets/Items/Book.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items/Book.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items/Book.asset.meta
-      projectPath: Assets/Items/Book.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items/Pen.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items/Pen.asset
-      projectPath: Assets/Items/Pen.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Items/Pen.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Items/Pen.asset.meta
-      projectPath: Assets/Items/Pen.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Prefab.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Prefab.meta
-      projectPath: Assets/Prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Prefab/ItemSlot.prefab
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Prefab/ItemSlot.prefab
-      projectPath: Assets/Prefab/ItemSlot.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Prefab/ItemSlot.prefab.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Prefab/ItemSlot.prefab.meta
-      projectPath: Assets/Prefab/ItemSlot.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scenes.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scenes.meta
-      projectPath: Assets/Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scenes/SampleScene.unity
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scenes/SampleScene.unity
-      projectPath: Assets/Scenes/SampleScene.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scenes/SampleScene.unity.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scenes/SampleScene.unity.meta
-      projectPath: Assets/Scenes/SampleScene.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts.meta
-      projectPath: Assets/Scripts.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/CollectibleItem.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/CollectibleItem.cs
-      projectPath: Assets/Scripts/CollectibleItem.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/CollectibleItem.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/CollectibleItem.cs.meta
-      projectPath: Assets/Scripts/CollectibleItem.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/IInteract.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/IInteract.cs
-      projectPath: Assets/Scripts/IInteract.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/IInteract.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/IInteract.cs.meta
-      projectPath: Assets/Scripts/IInteract.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/InventoryManager.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/InventoryManager.cs
-      projectPath: Assets/Scripts/InventoryManager.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/InventoryManager.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/InventoryManager.cs.meta
-      projectPath: Assets/Scripts/InventoryManager.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/InventorySlot.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/InventorySlot.cs
-      projectPath: Assets/Scripts/InventorySlot.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/InventorySlot.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/InventorySlot.cs.meta
-      projectPath: Assets/Scripts/InventorySlot.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/Item.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/Item.cs
-      projectPath: Assets/Scripts/Item.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/Item.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/Item.cs.meta
-      projectPath: Assets/Scripts/Item.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/ItemHandler.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/ItemHandler.cs
-      projectPath: Assets/Scripts/ItemHandler.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/ItemHandler.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/ItemHandler.cs.meta
-      projectPath: Assets/Scripts/ItemHandler.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerController.cs
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/PlayerController.cs
-      projectPath: Assets/Scripts/PlayerController.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerController.cs.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Scripts/PlayerController.cs.meta
-      projectPath: Assets/Scripts/PlayerController.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings.meta
-      projectPath: Assets/Settings.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Lit2DSceneTemplate.scenetemplate
-      projectPath: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta
-      projectPath: Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Renderer2D.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Renderer2D.asset
-      projectPath: Assets/Settings/Renderer2D.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Renderer2D.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Renderer2D.asset.meta
-      projectPath: Assets/Settings/Renderer2D.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Scenes.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Scenes.meta
-      projectPath: Assets/Settings/Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Scenes/URP2DSceneTemplate.unity
-      projectPath: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta
-      projectPath: Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/UniversalRP.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/UniversalRP.asset
-      projectPath: Assets/Settings/UniversalRP.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Settings/UniversalRP.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Settings/UniversalRP.asset.meta
-      projectPath: Assets/Settings/UniversalRP.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites.meta
-      projectPath: Assets/Sprites.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/apple.png
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/apple.png
-      projectPath: Assets/Sprites/apple.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/apple.png.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/apple.png.meta
-      projectPath: Assets/Sprites/apple.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/book.png
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/book.png
-      projectPath: Assets/Sprites/book.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/book.png.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/book.png.meta
-      projectPath: Assets/Sprites/book.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/pen.png
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/pen.png
-      projectPath: Assets/Sprites/pen.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/pen.png.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/pen.png.meta
-      projectPath: Assets/Sprites/pen.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/placeholder.png
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/placeholder.png
-      projectPath: Assets/Sprites/placeholder.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/placeholder.png.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/Sprites/placeholder.png.meta
-      projectPath: Assets/Sprites/placeholder.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/UniversalRenderPipelineGlobalSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/UniversalRenderPipelineGlobalSettings.asset
-      projectPath: Assets/UniversalRenderPipelineGlobalSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/UniversalRenderPipelineGlobalSettings.asset.meta
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Assets/UniversalRenderPipelineGlobalSettings.asset.meta
-      projectPath: Assets/UniversalRenderPipelineGlobalSettings.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages/manifest.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Packages/manifest.json
-      projectPath: Packages/manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages/packages-lock.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/Packages/packages-lock.json
-      projectPath: Packages/packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/AudioManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/AudioManager.asset
-      projectPath: ProjectSettings/AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ClusterInputManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/ClusterInputManager.asset
-      projectPath: ProjectSettings/ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/DynamicsManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/DynamicsManager.asset
-      projectPath: ProjectSettings/DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/EditorBuildSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/EditorBuildSettings.asset
-      projectPath: ProjectSettings/EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/EditorSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/EditorSettings.asset
-      projectPath: ProjectSettings/EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/GraphicsSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/GraphicsSettings.asset
-      projectPath: ProjectSettings/GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/InputManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/InputManager.asset
-      projectPath: ProjectSettings/InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/MemorySettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/MemorySettings.asset
-      projectPath: ProjectSettings/MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/MultiplayerManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/MultiplayerManager.asset
-      projectPath: ProjectSettings/MultiplayerManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/NavMeshAreas.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/NavMeshAreas.asset
-      projectPath: ProjectSettings/NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/NetworkManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/NetworkManager.asset
-      projectPath: ProjectSettings/NetworkManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/PackageManagerSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/PackageManagerSettings.asset
-      projectPath: ProjectSettings/PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/Physics2DSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/Physics2DSettings.asset
-      projectPath: ProjectSettings/Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/PresetManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/PresetManager.asset
-      projectPath: ProjectSettings/PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ProjectSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/ProjectSettings.asset
-      projectPath: ProjectSettings/ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ProjectVersion.txt
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/ProjectVersion.txt
-      projectPath: ProjectSettings/ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/QualitySettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/QualitySettings.asset
-      projectPath: ProjectSettings/QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/SceneTemplateSettings.json
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/SceneTemplateSettings.json
-      projectPath: ProjectSettings/SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ShaderGraphSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/ShaderGraphSettings.asset
-      projectPath: ProjectSettings/ShaderGraphSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TagManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/TagManager.asset
-      projectPath: ProjectSettings/TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TimeManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/TimeManager.asset
-      projectPath: ProjectSettings/TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/UnityConnectSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/UnityConnectSettings.asset
-      projectPath: ProjectSettings/UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/URPProjectSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/URPProjectSettings.asset
-      projectPath: ProjectSettings/URPProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/VersionControlSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/VersionControlSettings.asset
-      projectPath: ProjectSettings/VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/VFXManager.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/VFXManager.asset
-      projectPath: ProjectSettings/VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/XRSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/ProjectSettings/XRSettings.asset
-      projectPath: ProjectSettings/XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/EditorUserSettings.asset
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/UserSettings/EditorUserSettings.asset
-      projectPath: UserSettings/EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-      projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Layouts/default-6000.dwlt
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/UserSettings/Layouts/default-6000.dwlt
-      projectPath: UserSettings/Layouts/default-6000.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Search.index
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/UserSettings/Search.index
-      projectPath: UserSettings/Search.index
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Search.settings
-      fullPath: /media/windows/Users/takofaru/Documents/Project/ihavenoidea/UserSettings/Search.settings
-      projectPath: UserSettings/Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    currentUsername: 
-    unlockFileMenuContent:
-      m_Text: Release Lock
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-      m_TextWithWhitespace: "Release Lock\u200B"
-    forceUnlockFileMenuContent:
-      m_Text: Release Lock (forced)
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-      m_TextWithWhitespace: "Release Lock (forced)\u200B"
-  hasRemote: 1
-  currentRemoteName: origin
-  currentBranch: main
-  currentRemoteUrl: git@github.com:takofaru/invUnity.git
-  statusAhead: 0
-  statusBehind: 0
-  hasItemsToCommit: 1
-  isTrackingRemoteBranch: 1
-  currentBranchContent:
-    m_Text: main
-    m_Image: {fileID: 0}
-    m_Tooltip: Active branch
-    m_TextWithWhitespace: "main\u200B"
-  currentRemoteUrlContent:
-    m_Text: git@github.com:takofaru/invUnity.git
-    m_Image: {fileID: 0}
-    m_Tooltip: Url of the origin remote
-    m_TextWithWhitespace: "git@github.com:takofaru/invUnity.git\u200B"
-  lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2025-07-18T00:30:11.141+07:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2025-07-18T00:32:27.803+07:00
-    cacheType: 5
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2025-07-18T00:32:27.659+07:00
-    cacheType: 6
-  pullButtonContent:
-    m_Text: Pull
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Pull\u200B"
-  pushButtonContent:
-    m_Text: Push
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Push\u200B"
-  refreshButtonContent:
-    m_Text: Refresh
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Refresh\u200B"
-  fetchButtonContent:
-    m_Text: Fetch
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Fetch\u200B"
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: 
-  primaryConnectionUsername: 
---- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1393,7 +317,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   mForceToReOpen: 0
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1414,10 +338,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 22
-    y: 662
+    x: 0
+    y: 555
     width: 1371
-    height: 350
+    height: 339
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1459,7 +383,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f6b30000
     m_LastClickedID: 46070
-    m_ExpandedIDs: 00000000f6b3000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000005caf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1488,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6b30000
+    m_ExpandedIDs: 000000005caf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1546,7 +470,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1567,10 +491,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1394
-    y: 115
+    x: 1373
+    y: 24
     width: 503
-    height: 897
+    height: 870
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1595,7 +519,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1616,10 +540,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 22
-    y: 115
+    x: 0
+    y: 24
     width: 341
-    height: 521
+    height: 505
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1661,7 +585,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1682,10 +606,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 364
-    y: 115
+    x: 343
+    y: 24
     width: 1028
-    height: 521
+    height: 505
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2280,7 +1204,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 7.610863
     speed: 2
-    m_Value: 7.96949
+    m_Value: 7.610863
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2301,7 +1225,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 17}
+    m_SceneView: {fileID: 16}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -2311,7 +1235,7 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_LastDebugDrawMode: 35
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2412,7 +1336,7 @@ MonoBehaviour:
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
