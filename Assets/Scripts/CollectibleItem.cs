@@ -7,31 +7,22 @@ public class CollectibleItem : MonoBehaviour, IInteract
     private GameObject inventoryMenu;
     private InventoryManager _InventoryManager;
     private SpriteRenderer _SpriteRenderer;
-    [SerializeField]
-    private Item item;
-    private Sprite itemSprite;
-    private string itemName;
-    private string itemDescription;
-    private int itemMaxQuantity;
-    public Item GetItem()
-    {
-        return item;
-    }
-    public int GetItemMaxQuantity()
-    {
-        return itemMaxQuantity;
-    }
-    public string GetItemName()
-    {
-        return itemName;
-    }
+    public Item item;
+    [HideInInspector]
+    public Sprite itemSprite;
+    [HideInInspector]
+    public string itemName;
+    [HideInInspector]
+    public string itemDescription;
+    [HideInInspector]
+    public int itemMaxQuantity;
     public void Initialization(Item itemInit)
     {
         item = itemInit;
-        itemSprite = item.GetSprite();
-        itemName = item.GetItemName();
-        itemDescription = item.GetItemDesc();
-        itemMaxQuantity = item.GetMaxQuantity();
+        itemSprite = item.itemSprite;
+        itemName = item.itemName;
+        itemDescription = item.itemDescription;
+        itemMaxQuantity = item.maxQuantity;
         _SpriteRenderer.sprite = itemSprite;
     }
     void IInteract.Interact()

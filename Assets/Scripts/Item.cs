@@ -3,13 +3,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Item", menuName = "Scriptable Objects/Item")]
 public class Item : ScriptableObject
 {
-    [SerializeField]
-    private string itemName;
-    [SerializeField]
-    private Sprite sprite;
-    [SerializeField]
-    private int maxQuantity;
-    public string description;
+    [HideInInspector]
+    public string itemName;
+    [HideInInspector]
+    public Sprite itemSprite;
+    [HideInInspector]
+    public int maxQuantity;
+    public string itemDescription;
     [System.Serializable]
     public enum itemType
     {
@@ -17,21 +17,5 @@ public class Item : ScriptableObject
         material,
         normal
     }
-    [SerializeField] private itemType type;
-    public Sprite GetSprite()
-    {
-        return sprite;
-    }
-    public string GetItemName()
-    {
-        return itemName;
-    }
-    public int GetMaxQuantity()
-    {
-        return maxQuantity;
-    }
-    public string GetItemDesc()
-    {
-        return description;
-    }
+    public itemType type;
 }

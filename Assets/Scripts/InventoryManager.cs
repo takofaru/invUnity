@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -9,19 +10,6 @@ public class InventoryManager : MonoBehaviour
     InventorySlot _InventorySlot;
     [SerializeField]
     private GameObject bag;
-    bool isOpen;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void ToggleInventory()
     {
         if (bag.activeSelf)
@@ -33,31 +21,35 @@ public class InventoryManager : MonoBehaviour
             bag.SetActive(true);
         }
     }
-    public void AddItem(GameObject item)
+    public void AddItem(GameObject collectedItem)
     {
-        CollectibleItem _CollectibleItem = item.GetComponent<CollectibleItem>();
-        Debug.Log(_CollectibleItem.GetItemName());
+        CollectibleItem _CollectibleItem = collectedItem.GetComponent<CollectibleItem>();
+
+        Debug.Log(_CollectibleItem.itemName);
+
         for (int i = 0; i < inventorySlots.Length; i++)
         {
             Debug.Log(inventorySlots[i]);
+
             InventorySlot _InventorySlot = inventorySlots[i].GetComponent<InventorySlot>();
-            Debug.Log(_InventorySlot);
-            if (_CollectibleItem.GetItemName() == _InventorySlot.GetItemName() || _InventorySlot.GetItemName() == null)
+
+            if (_CollectibleItem.itemName == _InventorySlot.itemName && _CollectibleItem.itemMaxQuantity > _InventorySlot.itemQuantity || _InventorySlot.itemName == null)
             {
-                if (_CollectibleItem.GetItemMaxQuantity() > _InventorySlot.GetQuantity())
-                {
-                    int tempQuantity = _InventorySlot.GetQuantity() + 1;
-                    _InventorySlot.SetItem(_CollectibleItem.GetItem());
-                    _InventorySlot.SetQuantity(tempQuantity);
-                    Destroy(item);
-                    Debug.Log("I want your seed");
-                    break;
-                }
-                else
-                {
-                    Debug.Log("Not Available");
-                }
+                SpawnItem(_InventorySlot, _CollectibleItem, collectedItem);
+                break;
             }
         }
+    }
+    public void SpawnItem(InventorySlot _InventorySlot, CollectibleItem _CollectibleItem, GameObject collectedItem)
+    {
+        _InventorySlot.item = _CollectibleItem.item;
+        _InventorySlot.itemName = _CollectibleItem.itemName;
+        _InventorySlot.itemDescription = _CollectibleItem.itemDescription;
+        _InventorySlot.itemImage.sprite = _CollectibleItem.itemSprite;
+        _InventorySlot.itemQuantity += 1;
+
+        Destroy(collectedItem);
+
+        Debug.Log("Quantity: " + _InventorySlot.itemQuantity + ", Item Name = " + _InventorySlot.itemName);
     }
 }

@@ -32,48 +32,25 @@ public class PlayerController : MonoBehaviour
         _Rigidbody2D = GetComponent<Rigidbody2D>();
         _InventoryManager = InventoryMenu.GetComponent<InventoryManager>();
         verticalSpeed = _Rigidbody2D.linearVelocityY;
+
         items = GameObject.FindGameObjectsWithTag("collectibleItem");
+
         foreach (GameObject item in items)
         {
             Physics2D.IgnoreCollision(item.gameObject.GetComponent<BoxCollider2D>(), GetComponent<BoxCollider2D>());
-            foreach (GameObject otherItem in items)
-            {
-                Physics2D.IgnoreCollision(item.gameObject.GetComponent<BoxCollider2D>(), otherItem.gameObject.GetComponent<BoxCollider2D>());
-            }
+
             Debug.Log(item + " Applied");
         }
     }
+
     void Update()
     {
         _Rigidbody2D.linearVelocity = new Vector2(horizontalMovement * speed, _Rigidbody2D.linearVelocityY);
     }
-    // void FixedUpdate()
-    // {
-    //     for (int i = 0; i < touchedItems.Count; i++)
-    //     {
-    //         ItemHandler item = touchedItems[i].GetComponent<ItemHandler>();
-    //         if (touchedItems.FindIndex(obj => obj.GetComponent<ItemHandler>().GetItemName() == item.GetItemName()) < i)
-    //         {
-    //             listTouched += item.GetItemName() + i + " ";
-    //         }
-    //         else
-    //         {
-    //             listTouched += item.GetItemName() + " ";
-    //         }
-                
-    //     }
-    //     Debug.Log(listTouched);
-    //     Debug.Log("List Restarted");
-    //     listTouched = null;
-    // }
+
     public void Move(InputAction.CallbackContext ctx)
     {
         horizontalMovement = ctx.ReadValue<Vector2>().x;
-    }
-
-    void debug()
-    {
-        
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -87,8 +64,9 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log(_CollectibleItem.GetItemName());
+        Debug.Log(_CollectibleItem.itemName);
     }
+
     void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("collectibleItem"))
@@ -112,6 +90,7 @@ public class PlayerController : MonoBehaviour
         if (ctx.performed)
         {
             _InventoryManager.ToggleInventory();
+
             Debug.Log("Inventory");
         }
     }
@@ -120,14 +99,8 @@ public class PlayerController : MonoBehaviour
         if (ctx.performed && _IInteractableItem != null)
         {
             Debug.Log("Interact Item");
+            
             _IInteractableItem.Interact();
-            // _inventoryManager.AddItem(touchedItems[touchedItems.Count - 1]);
-            // Debug.Log("Object: " + itemObject.GetComponent<ItemHandler>().GetItemName());
-            // Debug.Log("Test");
-            // _inventoryManager.AddItem(itemObject);
-            // Collider2D[] collision;
-            // collision = Physics2D.OverlapCircleAll(transform.position, 2f);
-
         }
     }
 }
