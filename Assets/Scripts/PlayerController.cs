@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
         if (ctx.performed && _IInteractableItem != null)
         {
             Debug.Log("Interact Item");
-            
+
             _IInteractableItem.Interact();
         }
     }
